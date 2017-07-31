@@ -6,4 +6,4 @@ RUN apt-get install -y libssl-dev
 
 
 RUN Rscript -e 'install.packages("devtools")
-install_github("MRCIEU/TwoSampleMR")
+RUN installGithub.r MRCIEU/TwoSampleMR
